@@ -1,0 +1,21 @@
+.grid-container {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin: 0 auto;
+    border: 3px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+
+
+}
+
+.box {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

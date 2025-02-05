@@ -4,22 +4,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./images/favicon/flash.png" />
+  <title>CSS Layout Examples</title>
 
+  <link rel="icon" href="./images/favicon/flash.png" />
   <link rel="stylesheet" href="./style.css">
-  <title>JS</title>
+  <script type="module" src="/main.js" defer></script>
 </head>
 
 <body>
+
   <h1>CSS</h1>
-  <div class="container"></div>
-  <script type="module" src="/main.js"></script>
-  <div class="flex-container">
+
+  <div class="circle">
+    <h4>Place Mouse Over Me</h4>
+  </div>
+
+  <section class="flex-container">
     <div class="square">1</div>
     <div class="square">2</div>
     <div class="square">3</div>
     <div class="square">4</div>
-  </div>
+  </section>
+
+  <nav class="page-links">
+    <a href="./text.html" class="para-link" aria-label="Learn about CSS transitions">Transition</a>
+    <a href="./flex.html" class="para-link" aria-label="Learn about CSS Flexbox">FlexBox</a>
+    <a href="./grid.html" class="para-link" aria-label="Learn about CSS Grid">Grid</a>
+    <a href="./animation.html" class="para-link" aria-label="Learn about CSS animations">Animations</a>
+  </nav>
 
 </body>
 
